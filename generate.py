@@ -31,7 +31,7 @@ CREATE PROMPT TEMPLATE FOR ANTHROPIC AGENT
 """
 prompt = ChatPromptTemplate.from_template(
     """
-    You are a helpful assistant. Help the user answer any questions.
+    You are a world class coder. You generate python assertion tests. Help the user answer any questions.
 
     You have access to the following tools:
 
