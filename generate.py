@@ -96,7 +96,6 @@ agent_executor = AgentExecutor(agent=agent, tools=tools)  # type: ignore
 class CodeGenerateArgsSchema(BaseModel):
     prompt: str = Field(
         description="The prompt to generate code from",
-        example="Give me the code to extract the trace of a TM device",
     )
 
 
